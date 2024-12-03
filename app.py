@@ -57,4 +57,5 @@ def ping():
 
 @app.route('/', methods=['GET'])
 def hello():
-    return "Hello Shivank!!"
+    a = input("Enter Your Name!")
+    return f"Hello {a}!!"
